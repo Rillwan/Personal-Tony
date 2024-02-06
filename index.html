@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="./assets/avatar.png">
+    <title>Personal Website</title>
+    <link rel="stylesheet" href="./style/main.css">
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+
+<body>
+
+    <nav>
+        <div class="container">
+            <h2><a href="/" id="logo"><img src="./assets/R.png" width="8" alt="Logo"></a></h2>
+            <ul>
+                <li class="btn active">
+                    <a href="#">Home</a>
+                </li>
+                <li class="btn">
+                    <a href="#about">About Me</a>
+                </li>
+                <li class="btn contact">
+                    <a href="#contact">Contact Me</a>
+                </li>
+            </ul>
+            <!-- Theme  -->
+            <div class="theme" id="theme">
+                <i class="bi bi-moon light active"></i>
+                <i class="bi bi-moon-fill dark"></i>
+                <div class="popup" id="popup">Dark Mode</div>
+            </div>
+            <div class="toggle__menu" id="toggle__menu"><i class="bi bi-microsoft"></i></div>
+            <div class="toggle__close" id="toggle__close"><i class="bi bi-x"></i></div>
+        </div>
+    </nav>
+
+    <!-- ==== Home section ========  -->
+    <section class="Home" id="home">
+        <div class="left">
+            <div class="left-1"></div>
+            <div class="home__profile">
+                <div class="circle">
+                    <img src="./assets/home.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="center">
+            <div class="container">
+                <div class="home__content">
+                    <h1>TonY</h1>
+                    <h4>Web Developer &amp; Designer</h4>
+                    <button class="btn">Download SV</button>
+                </div>
+            </div>
+        </div>
+        <div class="right">
+            <div class="home__social">
+                <a href="https://github.com/Rillwan" target="_blank"><i class="bi bi-github"></i></a>
+                <a href="https://www.linkedin.com/in/mohammad-riswan-698387268/" target="_blank"><i
+                        class="bi bi-linkedin"></i></a>
+                <a href="https://www.instagram.com/rill_wan_____/"><i class="bi bi-instagram"></i></a>
+                <a href="https://wa.me/qr/XDH3SK6IFDM5F1"><i class="bi bi-whatsapp"></i></a>
+            </div>
+        </div>
+    </section>
+    <hr class="home-bottum-line">
+
+    <!-- ========== About section =========  -->
+    <section class="About" id="about">
+        <h2 class="heading">My Personal Information</h2>
+        <div class="container">
+            <div class="about__left">
+                <div class="about__profile">
+                    <div class="circle">
+                        <img src="./assets/about.png" width="300" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="about__right">
+                <h2>TonY STarK</h2>
+                <h4>Web Developer & Designer from New York.</h4>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error odio consectetur porro repellendus
+                    non blanditiis, maiores sit iste reprehenderit, voluptatem aliquid amet odit, saepe laudantium rem!
+                    Esse sequi numquam enim.</p>
+                <button class="btn">Contact Me</button>
+                <h5>My Skill Are :</h5>
+                <div class="skills">
+                    <ul>
+                        <li><img src="./assets/about-html.svg" alt=""></li>
+                        <li><img src="./assets/about-css.svg" alt=""></li>
+                        <li><img src="./assets/about-javascript.svg" alt=""></li>
+                        <li><img src="./assets/about-react.svg" alt=""></li>
+                        <li><img src="./assets/about-boostrap.svg" alt=""></li>
+                        <li><img src="./assets/about-nodejs.svg" alt=""></li>
+                        <li><img src="./assets/about-python.svg" alt=""></li>
+                        <li><img src="./assets/about-figma.svg" alt=""></li>
+                        <li><img src="./assets/about-photoshop.svg" alt=""></li>
+                        <li><img src="./assets/about-vite.svg" alt=""></li>
+                        <li><img src="./assets/about-git.svg" alt=""></li>
+                        <li><img src="./assets/about-mongoDB.svg" alt=""></li>
+                        <li><img src="./assets/about-django.svg" alt=""></li>
+                        <li><img src="./assets/about-github.svg" alt=""></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== Contact section =========  -->
+    <section class="Contact" id="contact">
+        <h2>Let's Talk<br />About Your Project</h2>
+        <div class="contact__container">
+            <form action="">
+                <div class="contact__group">
+                    <div class="contact__box">
+                        <input class="contact__input" autocomplete="given-name" required name="name" type="text"
+                            id="name" placeholder="Write your name" />
+                        <label class="contact__label" for="name">First Name</label>
+                    </div>
+                    <div class="contact__box">
+                        <input class="contact__input" autocomplete="email address" required type="email" id="email"
+                            placeholder="Write your email" />
+                        <label class="contact__label" for="email">Email Address</label>
+                    </div>
+                </div>
+                <div class="contact__area">
+                    <textarea class="contact__input" name="message" id="message" required
+                        placeholder="Write your message"></textarea>
+                    <label class="contact__label" for="message">Message</label>
+                </div>
+                <button class="btn" type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- ========== Footer section =========  -->
+    <footer>
+        <div class="container">
+            <div class="menu">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="about">About Me</a></li>
+                    <li><a href="contact">Contact Me</a></li>
+                </ul>
+            </div>
+            <div class="description">
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia totam quod perferendis amet saepe
+                    cum quae, sequi aliquam deleniti quas reiciendis dolorem. Laborum aperiam sit vitae ab, aspernatur
+                    repellendus! At?
+                    Nihil ex omnis dolores pariatur, ipsum cum eaque quaerat, aspernatur beatae ratione ab saepe quam
+                    deleniti, tenetur quibusdam quo nam? Aut, sequi? Cum assumenda officiis at ad, repellat autem id?
+                </p>
+            </div>
+
+            <div class="socail">
+                <a href="" class=""><i class="bi bi-instagram"></i></a>
+                <a href=""><i class="bi bi-twitter-x"></i></a>
+                <a href=""><i class="bi bi-github"></i></a>
+                <a href=""><i class="bi bi-linkedin"></i></a>
+                <a href=""><i class="bi bi-google"></i></a>
+            </div>
+        </div>
+
+        <!-- Copyright -->
+        <div class="copywrite">
+            © 2024 Copyright @<a href="https://www.instagram.com/rillwan.tech/">Rillwan.Tech</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.js"
+        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
